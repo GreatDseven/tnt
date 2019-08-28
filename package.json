@@ -10,7 +10,7 @@
     "swiper": "^4.5.0"
   },
   "scripts": {
-    "homepage": "https://greatdseven.github.io/tnt",
+    "homepage": "https://greatdseven.github.io/tnt/#",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

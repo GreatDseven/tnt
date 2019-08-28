@@ -17,79 +17,79 @@ class Home extends Component {
   render() {
     return (
       <div className="my-swiper">
-        <div className="swiper-container">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u1.jpg"
-                alt=""
-              />
-            </div>
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u3.jpg"
-                alt=""
-              />
-            </div>
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u5.jpg"
-                alt=""
-              />
-            </div>
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u8.jpg"
-                alt=""
-              />
-            </div>
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u21.jpg"
-                alt=""
-              />
-              <div>
-                <h3>- 2019/08/22 -</h3>
-                <h4>今日推送 >></h4>
+        <Router>
+          <div className="swiper-container">
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u1.jpg"
+                  alt=""
+                />
               </div>
-            </div>
-            <div className="swiper-slide">
-              <img
-                src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u22.jpg"
-                alt=""
-              />
-              <div>
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u3.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u5.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u8.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u21.jpg"
+                  alt=""
+                />
                 <div>
-                  <input type="text" placeholder="点击输入手机号/Email登录" />
-                  <input type="text" placeholder="输入密码" />
+                  <h3>- 2019/08/22 -</h3>
+                  <h4>今日推送 >></h4>
                 </div>
+              </div>
+              <div className="swiper-slide">
+                <img
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u22.jpg"
+                  alt=""
+                />
                 <div>
-                  <Router>
+                  <div>
+                    <input type="text" placeholder="点击输入手机号/Email登录" />
+                    <input type="text" placeholder="输入密码" />
+                  </div>
+                  <div>
                     <NavLink to="/zhuye">登录</NavLink>
                     <NavLink to="/zhuce">注册</NavLink>
-                  </Router>
-                </div>
-                <div className="home-4">
-                  <p>登录或注册</p>
-                </div>
-                <div className="home-bottom">
-                  <div>
-                    <span className="iconfont icon-weibo" />
-                    <p>微博</p>
                   </div>
-                  <div>
-                    <span className="iconfont icon-weixin" />
-                    <p>微信</p>
+                  <div className="home-4">
+                    <p>登录或注册</p>
                   </div>
-                  <div>
-                    <span className="iconfont icon-qq" />
-                    <p>QQ</p>
+                  <div className="home-bottom">
+                    <div>
+                      <span className="iconfont icon-weibo" />
+                      <p>微博</p>
+                    </div>
+                    <div>
+                      <span className="iconfont icon-weixin" />
+                      <p>微信</p>
+                    </div>
+                    <div>
+                      <span className="iconfont icon-qq" />
+                      <p>QQ</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </Router>
       </div>
     )
   }
