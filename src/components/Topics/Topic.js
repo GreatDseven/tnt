@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Topic.css'
+import { HashRouter as Router } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 class Topic extends Component {
   state = {
@@ -38,7 +39,7 @@ class Topic extends Component {
   }
   render() {
     return (
-      <div className="topic-wrap">
+      <Router className="topic-wrap">
         <div className="topic-main">
           <div className="topic-head">
             <img
@@ -111,7 +112,7 @@ class Topic extends Component {
             top: this.state.topicShare ? '100%' : '0'
           }}
         ></div>
-      </div>
+      </Router>
     )
   }
 }

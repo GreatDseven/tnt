@@ -3,6 +3,7 @@ import Swiper from 'swiper/dist/js/swiper.js'
 import 'swiper/dist/css/swiper.min.css'
 import './index.css'
 import './home.css'
+import { HashRouter as Router } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 class Home extends Component {
   state = {}
@@ -63,8 +64,10 @@ class Home extends Component {
                   <input type="text" placeholder="输入密码" />
                 </div>
                 <div>
-                  <NavLink to="/zhuye">登录</NavLink>
-                  <NavLink to="/zhuce">注册</NavLink>
+                  <Router>
+                    <NavLink to="/zhuye">登录</NavLink>
+                    <NavLink to="/zhuce">注册</NavLink>
+                  </Router>
                 </div>
                 <div className="home-4">
                   <p>登录或注册</p>
