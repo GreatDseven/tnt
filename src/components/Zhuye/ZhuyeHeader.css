@@ -19,7 +19,7 @@
 .zhuyesearch {
   background-image: url('https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/zhuye_search2.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
