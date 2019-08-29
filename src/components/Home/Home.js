@@ -22,25 +22,25 @@ class Home extends Component {
             <div className="swiper-wrapper">
               <div className="swiper-slide">
                 <img
-                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u1.jpg"
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u1.jpg"
                   alt=""
                 />
               </div>
               <div className="swiper-slide">
                 <img
-                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u3.jpg"
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u3.jpg"
                   alt=""
                 />
               </div>
               <div className="swiper-slide">
                 <img
-                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u5.jpg"
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u5.jpg.jpg"
                   alt=""
                 />
               </div>
               <div className="swiper-slide">
                 <img
-                  src="https://dev.tencent.com/u/GreatDseven/p/dev-demo/git/raw/master/u8.jpg"
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u8.jpg"
                   alt=""
                 />
               </div>
