@@ -34,7 +34,7 @@ class Home extends Component {
               </div>
               <div className="swiper-slide">
                 <img
-                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u5.jpg.jpg"
+                  src="https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/u5.jpg"
                   alt=""
                 />
               </div>
